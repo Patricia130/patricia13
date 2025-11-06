@@ -286,7 +286,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
             body: AppLocalizations.of(event.context)!
                 .testOtp
                 .replaceAll('***', '123456'));
-        showOtpNotification(noti);
+        //showOtpNotification(noti);
         if (event.isForgotPassword) {
           emit(ForgotPasswordOTPSendState());
         }
