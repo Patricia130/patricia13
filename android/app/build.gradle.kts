@@ -33,7 +33,8 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
-        isCoreLibraryDesugaringEnabled = false
+        // ✅ Ativar o Desugaring
+        isCoreLibraryDesugaringEnabled = true
     }
 
     kotlinOptions {
@@ -60,7 +61,7 @@ android {
 
     buildTypes {
         release {
-            signingConfig = signingConfigs.getByName("release");
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android.txt"),
                 "proguard-rules.pro"
@@ -74,14 +75,17 @@ flutter {
 }
 
 dependencies {
-    implementation(platform("androidx.compose:compose-bom:2024.02.02")) // Ensures matching versions
+    implementation(platform("androidx.compose:compose-bom:2024.02.02"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.runtime:runtime") // Required for Compose Compiler
+    implementation("androidx.compose.runtime:runtime")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.activity:activity-compose:1.9.0")
 
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("androidx.multidex:multidex:2.0.1")
     implementation("com.google.android.material:material:1.10.0")
+
+    // ✅ Adicione esta linha:
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 }
