@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/core/network/extensions.dart';
+import 'package:tochegando_cliente/core/network/extensions.dart';
 import '../../../../../../common/app_arguments.dart';
 import '../../../../../../core/utils/custom_appbar.dart';
 import '../../../../../../core/utils/custom_button.dart';

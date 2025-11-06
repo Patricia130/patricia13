@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restart_tagxi/core/utils/custom_text.dart';
+import 'package:tochegando_cliente/core/utils/custom_text.dart';
 
 class TicketInfoItem extends StatelessWidget {
   final String title;

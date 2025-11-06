@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/outstation/page/outstation_page.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/page/support_ticket.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/page/view_ticket_page.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/outstation/page/outstation_page.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/page/support_ticket.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/page/view_ticket_page.dart';
 import '../core/error/error_page.dart';
 import '../features/account/presentation/pages/fav_location/page/confirm_fav_location.dart';
 import '../features/account/presentation/pages/settings/page/delete_account.dart';

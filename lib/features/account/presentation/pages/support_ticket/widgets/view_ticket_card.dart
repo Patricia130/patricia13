@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/common/app_colors.dart';
-import 'package:restart_tagxi/core/utils/custom_divider.dart';
-import 'package:restart_tagxi/core/utils/custom_text.dart';
-import 'package:restart_tagxi/features/account/application/acc_bloc.dart';
-import 'package:restart_tagxi/features/account/domain/models/view_ticket_model.dart';
+import 'package:tochegando_cliente/common/app_colors.dart';
+import 'package:tochegando_cliente/core/utils/custom_divider.dart';
+import 'package:tochegando_cliente/core/utils/custom_text.dart';
+import 'package:tochegando_cliente/features/account/application/acc_bloc.dart';
+import 'package:tochegando_cliente/features/account/domain/models/view_ticket_model.dart';
 import 'package:intl/intl.dart' as intl;
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/widgets/attachment_preview_list.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/widgets/ticket_info_item.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/widgets/attachment_preview_list.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/widgets/ticket_info_item.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 class ViewTicketCard extends StatelessWidget {
   final Size size;

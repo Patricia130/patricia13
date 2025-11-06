@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 import '../../../../../../common/common.dart';
 import '../../../../../../common/pickup_icon.dart';

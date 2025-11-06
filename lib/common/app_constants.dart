@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:restart_tagxi/db/app_database.dart';
+import 'package:tochegando_cliente/db/app_database.dart';
 
 import '../features/language/domain/models/language_listing_model.dart';
 

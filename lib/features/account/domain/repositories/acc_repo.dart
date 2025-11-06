@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:restart_tagxi/features/account/domain/models/make_ticket_model.dart';
-import 'package:restart_tagxi/features/account/domain/models/service_location_model.dart';
-import 'package:restart_tagxi/features/account/domain/models/ticket_list_model.dart';
-import 'package:restart_tagxi/features/account/domain/models/ticket_names_model.dart';
-import 'package:restart_tagxi/features/account/domain/models/view_ticket_model.dart';
+import 'package:tochegando_cliente/features/account/domain/models/make_ticket_model.dart';
+import 'package:tochegando_cliente/features/account/domain/models/service_location_model.dart';
+import 'package:tochegando_cliente/features/account/domain/models/ticket_list_model.dart';
+import 'package:tochegando_cliente/features/account/domain/models/ticket_names_model.dart';
+import 'package:tochegando_cliente/features/account/domain/models/view_ticket_model.dart';
 import '../../../../core/network/failure.dart';
 import '../models/admin_chat_history_model.dart';
 import '../models/admin_chat_model.dart';

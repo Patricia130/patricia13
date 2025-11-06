@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:restart_tagxi/core/utils/custom_appbar.dart';
-import 'package:restart_tagxi/features/account/application/acc_bloc.dart';
+import 'package:tochegando_cliente/core/utils/custom_appbar.dart';
+import 'package:tochegando_cliente/features/account/application/acc_bloc.dart';
 import '../../../../../../common/common.dart';
 import '../../../../../../core/utils/custom_loader.dart';
 import '../../../../../../l10n/app_localizations.dart';

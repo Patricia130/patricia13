@@ -1,7 +1,7 @@
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 import '../../../../../../core/utils/custom_appbar.dart';
 import '../../../../../../core/utils/custom_text.dart';

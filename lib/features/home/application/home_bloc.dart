@@ -5,9 +5,9 @@ import 'dart:convert';
 import 'dart:math' as math;
 import 'package:flutter/services.dart';
 import 'package:flutter_contacts/flutter_contacts.dart';
-import 'package:restart_tagxi/core/utils/payment_received_stream.dart';
-import 'package:restart_tagxi/db/app_database.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/core/utils/payment_received_stream.dart';
+import 'package:tochegando_cliente/db/app_database.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 import 'package:vector_math/vector_math.dart' as vector;
 
 import 'package:firebase_database/firebase_database.dart';

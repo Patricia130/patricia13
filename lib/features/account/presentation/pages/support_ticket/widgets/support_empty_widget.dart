@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:restart_tagxi/common/app_images.dart';
-import 'package:restart_tagxi/core/utils/custom_text.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/common/app_images.dart';
+import 'package:tochegando_cliente/core/utils/custom_text.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 class SupportEmptyWidget extends StatelessWidget {
   const SupportEmptyWidget({super.key});

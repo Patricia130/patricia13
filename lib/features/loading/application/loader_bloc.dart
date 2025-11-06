@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:restart_tagxi/core/utils/custom_snack_bar.dart';
+import 'package:tochegando_cliente/core/utils/custom_snack_bar.dart';
 import '../../../common/common.dart';
 import '../../../di/locator.dart';
 import 'usecase/loader_usecases.dart';

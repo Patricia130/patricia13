@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/core/network/extensions.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/core/network/extensions.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 import 'package:share_plus/share_plus.dart';
 import '../../../../../../common/common.dart';
 import '../../../../../../core/utils/custom_appbar.dart';

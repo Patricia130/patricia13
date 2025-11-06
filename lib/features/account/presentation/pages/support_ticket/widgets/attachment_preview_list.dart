@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:restart_tagxi/common/app_images.dart';
+import 'package:tochegando_cliente/common/app_images.dart';
 
 class AttachmentPreviewList extends StatelessWidget {
   final List<dynamic> imageUrls;

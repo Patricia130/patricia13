@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/common/app_arguments.dart';
-import 'package:restart_tagxi/features/account/application/acc_bloc.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/widgets/reply_ticket_widget.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/widgets/support_reply_message_list.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/widgets/view_ticket_card.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/common/app_arguments.dart';
+import 'package:tochegando_cliente/features/account/application/acc_bloc.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/widgets/reply_ticket_widget.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/widgets/support_reply_message_list.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/widgets/view_ticket_card.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 import '../../../../../../core/utils/custom_appbar.dart';
 

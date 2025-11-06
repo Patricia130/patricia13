@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/outstation/page/outstation_page.dart';
-import 'package:restart_tagxi/features/account/presentation/pages/support_ticket/page/support_ticket.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/outstation/page/outstation_page.dart';
+import 'package:tochegando_cliente/features/account/presentation/pages/support_ticket/page/support_ticket.dart';
 import '../../../../common/common.dart';
 import '../../../../core/utils/custom_appbar.dart';
 import '../../../../core/utils/custom_loader.dart';

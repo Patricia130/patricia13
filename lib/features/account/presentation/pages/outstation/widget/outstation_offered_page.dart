@@ -1,8 +1,8 @@
 import "package:cached_network_image/cached_network_image.dart";
 import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
-import "package:restart_tagxi/core/utils/custom_button.dart";
-import "package:restart_tagxi/features/account/presentation/widgets/top_bar.dart";
+import "package:tochegando_cliente/core/utils/custom_button.dart";
+import "package:tochegando_cliente/features/account/presentation/widgets/top_bar.dart";
 import "package:shimmer/shimmer.dart";
 import "../../../../../../common/common.dart";
 import "../../../../../../core/utils/custom_loader.dart";

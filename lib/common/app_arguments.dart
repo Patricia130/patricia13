@@ -1,5 +1,5 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:restart_tagxi/core/utils/payment_received_stream.dart';
+import 'package:tochegando_cliente/core/utils/payment_received_stream.dart';
 import '../features/account/domain/models/history_model.dart';
 import '../features/auth/domain/models/country_list_model.dart';
 import '../features/home/domain/models/user_details_model.dart';

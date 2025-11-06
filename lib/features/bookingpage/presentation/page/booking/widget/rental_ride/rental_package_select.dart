@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/core/utils/custom_divider.dart';
+import 'package:tochegando_cliente/core/utils/custom_divider.dart';
 
 import '../../../../../../../common/common.dart';
 import '../../../../../../../core/utils/custom_button.dart';

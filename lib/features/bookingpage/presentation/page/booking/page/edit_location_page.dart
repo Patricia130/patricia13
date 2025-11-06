@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter_map/flutter_map.dart' as fm;
 import 'package:latlong2/latlong.dart' as fmlt;
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 import '../../../../../../common/common.dart';
 import '../../../../../../common/pickup_icon.dart';

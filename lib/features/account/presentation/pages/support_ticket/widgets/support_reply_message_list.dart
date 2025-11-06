@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/core/utils/custom_text.dart';
-import 'package:restart_tagxi/features/account/application/acc_bloc.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/core/utils/custom_text.dart';
+import 'package:tochegando_cliente/features/account/application/acc_bloc.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 class SupportReplyMessageList extends StatelessWidget {
   final Size size;

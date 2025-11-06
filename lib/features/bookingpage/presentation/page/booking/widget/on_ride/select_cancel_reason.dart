@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:restart_tagxi/common/common.dart';
-import 'package:restart_tagxi/core/utils/custom_textfield.dart';
-import 'package:restart_tagxi/l10n/app_localizations.dart';
+import 'package:tochegando_cliente/common/common.dart';
+import 'package:tochegando_cliente/core/utils/custom_textfield.dart';
+import 'package:tochegando_cliente/l10n/app_localizations.dart';
 
 import '../../../../../../../core/utils/custom_button.dart';
 import '../../../../../../../core/utils/custom_text.dart';
